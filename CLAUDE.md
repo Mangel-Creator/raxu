@@ -37,7 +37,10 @@ cumple, díselo antes de hacerlo (Organizy acabó haciendo de todo y eso es lo q
 ## Sesiones
 
 El usuario trabaja con una sesión de Claude por tema. Los mensajes de arranque de cada una
-están en `C:\Users\usuario\OneDrive\PERSONAL\Raxu\Prompts` (`Raxu-NN-tema.md`).
+están en `C:\Users\usuario\OneDrive\PERSONAL\Raxu\Prompts` (`Raxu-NN-tema.md`). Las partes
+nuevas se abren con la skill `/app`, que numera las funciones ("06 · Bonos") y deja las
+herramientas sin número ("Supabase"); el registro de sesiones está en
+[.claude/app-sesiones.md](.claude/app-sesiones.md).
 
 - Al empezar o retomar, relee este archivo e `IDEA.md`: pueden haber cambiado.
 - Si el usuario da una indicación que afecta a todo el proyecto, apúntala aquí (en
@@ -50,7 +53,12 @@ están en `C:\Users\usuario\OneDrive\PERSONAL\Raxu\Prompts` (`Raxu-NN-tema.md`).
 
 En `C:\proyectos\organizy` está la app anterior del usuario (Expo SDK 57, TypeScript, Expo
 Router, Supabase). **Puedes leerla y copiar lo que sirva, pero nunca la modifiques.** Su
-`CLAUDE.md` explica cada pieza. Lo más aprovechable:
+`CLAUDE.md` explica cada pieza.
+
+**[ORGANIZY.md](ORGANIZY.md) resume todo lo que Raxu hereda**: cómo trabaja el usuario, cuentas
+y servicios que ya existen, versiones y configuración exactas, cómo se publica la web y Expo Go
+sin ordenador, el servidor, piezas reutilizables con sus funciones, trampas ya resueltas,
+diseño, costes y pendientes. **Léelo antes de montar o copiar nada.** Lo más aprovechable:
 
 - Tráfico y hora de salida con TomTom: `src/services/rutas/`, `src/data/salidas.ts` y la
   función de Supabase `supabase/functions/rutas`.
