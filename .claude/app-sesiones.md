@@ -14,3 +14,9 @@ sesión.
 | 04 | 04 · Ruta y llego tarde | Función | 2026-10-01 | pendiente | Hora de salida con tráfico, ruta del día, "llego tarde", Waze/Maps |
 | 05 | 05 · Cobros | Función | 2026-10-01 | pendiente | Cobrado / sin cobrar, "te deben X €", recordatorio de pago |
 | — | Organización | Herramienta | 2026-10-01 | pendiente de pulsar la tarjeta | Word de herramientas: qué pago, para qué sirve, mejor opción al crecer; se mantiene al día |
+| — | GitHub | Herramienta | 2026-10-01 | pendiente de pulsar la tarjeta | Repo propio Mangel-Creator/raxu, subir main y GitHub Pages |
+| — | Expo | Herramienta | 2026-10-01 | pendiente de pulsar la tarjeta | Proyecto @mangel_creator/raxu, EXPO_TOKEN propio y Expo Go sin ordenador |
+| — | Supabase | Herramienta | 2026-10-01 | pendiente de pulsar la tarjeta | Proyecto nuevo, acceso anónimo, base común del servidor y variables públicas |
+| — | TomTom | Herramienta | 2026-10-01 | pendiente de pulsar la tarjeta | Claves nuevas de rutas (secreta) y mapa web (pública), cupo y costes |
+| — | Anthropic | Herramienta | 2026-10-01 | pendiente de pulsar la tarjeta | Espacio y clave propios con límite de gasto, modelos y costes de la IA |
+| — | Higgsfield | Herramienta | 2026-10-01 | pendiente de pulsar la tarjeta | Imágenes y vídeos para Raxu (icono, marketing, tiendas), plan y costes |

@@ -79,7 +79,8 @@ diseño, costes y pendientes. **Léelo antes de montar o copiar nada.** Lo más 
 - Web en GitHub Pages y app probada en Expo Go, como Organizy.
 - Datos del usuario en su dispositivo. Servidor solo para lo que necesita claves secretas
   (tráfico con TomTom, IA con Claude): un proyecto **nuevo** de Supabase.
-- La clave de TomTom puede ser la misma de Organizy (comparten el cupo gratis diario).
+- **Nada compartido con Organizy** (ver "Decisiones del usuario", 01/10): repositorio,
+  proyecto de Expo, Supabase y claves de TomTom y Anthropic, todos nuevos y solo de Raxu.
 
 ## Carpeta del usuario
 
@@ -92,6 +93,17 @@ solo aquí.
 
 - 01/10/2026 — Nuevo proyecto para autónomos en ruta, con el nombre de trabajo **Raxu**.
   Organizy sigue como está (no se poda ni se borra nada de Organizy sin que él lo diga).
+- 01/10/2026 — **Raxu empieza desde cero: no se vincula a nada de Organizy.** Mismas cuentas
+  personales (GitHub `Mangel-Creator`, Expo `mangel_creator`, consola de Anthropic, TomTom,
+  Supabase), pero **todo lo de dentro es nuevo y solo de Raxu**: repositorio, proyecto de
+  Expo, proyecto de Supabase y claves de TomTom y de Anthropic. No reutilices ninguna clave,
+  proyecto ni secreto de Organizy; de Organizy solo se copia código (ver `ORGANIZY.md`).
+- 01/10/2026 — **Cada herramienta tiene su propia sesión** (sin número: "GitHub", "Expo",
+  "Supabase", "TomTom", "Anthropic", "Higgsfield"; registro en `.claude/app-sesiones.md`).
+  Montar la cuenta, el proyecto, las claves y los secretos de una herramienta lo hace **su**
+  sesión; las demás sesiones solo usan lo que esa deja montado y, si falta algo, se lo dicen
+  al usuario (o a esa sesión) en vez de montarlo ellas. Las herramientas nuevas que vayan
+  haciendo falta (Apple, Google Play, cobros, WhatsApp Business…) se abren con `/app`.
 
 ## Estado
 

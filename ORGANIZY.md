@@ -51,14 +51,19 @@ Esto vale para Raxu igual que para Organizy:
 
 ## 2. Cuentas y servicios que ya existen
 
-| Servicio | Lo que hay | Para Raxu |
+**Decisión del 1/10/2026: Raxu no se vincula a nada de Organizy.** Mismas cuentas personales,
+pero repositorio, proyectos y claves nuevos y solo de Raxu. Cada herramienta lo monta en **su
+propia sesión** ("GitHub", "Expo", "Supabase", "TomTom", "Anthropic", "Higgsfield"). La
+columna "Organizy" es solo para saber cómo se hizo allí; **no reutilices nada de ella**.
+
+| Servicio | Organizy (solo referencia) | Para Raxu (lo monta la sesión de esa herramienta) |
 |---|---|---|
-| GitHub | Usuario `Mangel-Creator`, con `gh` ya autenticado en este ordenador. Repo público `Mangel-Creator/organizy` (público por GitHub Pages). | Repo nuevo `Mangel-Creator/raxu`. **Pregúntale antes de crearlo.** |
+| GitHub | Usuario `Mangel-Creator`, con `gh` ya autenticado en este ordenador. Repo público `Mangel-Creator/organizy` (público por GitHub Pages). | Misma cuenta. Repo nuevo `Mangel-Creator/raxu`. **Pregúntale antes de crearlo.** |
 | GitHub Pages | Web en `https://mangel-creator.github.io/organizy/` | Será `https://mangel-creator.github.io/raxu/`, con `baseUrl` `/raxu`. |
-| Expo | Cuenta `mangel_creator`, con la CLI ya iniciada. Proyecto `@mangel_creator/organizy` (id `bf4c1bdd-…`). | Proyecto nuevo con `eas init`; su id saldrá en `app.json`. |
-| Supabase | Proyecto de Organizy `hwemrpexabisyueyizjz`. La CLI la inicia el usuario (`npx supabase login`). | **Proyecto nuevo** para Raxu (decidido). Lo crea el usuario. |
-| TomTom | Cuenta del usuario, plan Evaluation (gratis y sin tarjeta). La clave de rutas "My First API key" (rotada el 27/09) está en los secretos de Supabase de Organizy como `TOMTOM_KEY`. Hay otra clave **pública**, solo para mapas y restringida al dominio `mangel-creator.github.io`. | La de rutas se puede reutilizar: el usuario la pega en los secretos del Supabase nuevo y **comparten el cupo diario**. La pública vale tal cual, porque Raxu va en el mismo dominio. |
-| Anthropic | Consola creada; **la clave aún no está puesta**. | Igual: la pondrá él. Todo debe funcionar sin ella. |
+| Expo | Cuenta `mangel_creator`, con la CLI ya iniciada. Proyecto `@mangel_creator/organizy`. | Misma cuenta. Proyecto nuevo `@mangel_creator/raxu` (`eas init`) y su propio `EXPO_TOKEN`. |
+| Supabase | Proyecto de Organizy (no tocar). | Misma cuenta. **Proyecto nuevo**; lo crea el usuario. |
+| TomTom | Cuenta del usuario, plan Evaluation (gratis y sin tarjeta), con sus claves de rutas y de mapas. | **Claves nuevas** solo para Raxu: una de rutas para los secretos del Supabase de Raxu y otra pública solo para mapas. Comprobar si el cupo gratis es por clave o por cuenta. |
+| Anthropic | Consola creada; la clave de Organizy aún no está puesta. | **Clave nueva** solo para Raxu, mejor en su propio espacio de trabajo con límite de gasto. Todo debe funcionar sin ella. |
 | Meta / WhatsApp Business | No hay cuentas. | Para la primera versión no hacen falta (WhatsApp con el mensaje escrito). |
 | Google Cloud / Microsoft Entra | Sin registrar (pendiente del usuario en Organizy). | Solo si algún día hace falta entrar con Google o vincular cuentas. |
 
@@ -371,7 +376,8 @@ Organizy y en `OneDrive\PERSONAL\Organizy\Diseño\Brief de diseño.md`.
   mapa al día. Si se pasa, deja de responder hasta el día siguiente y nunca cobra.
   - Organizy gastaba unas 15-30 peticiones por persona y día, así que daba para unas 80-150
     personas.
-  - Si Raxu y Organizy comparten la clave, comparten el cupo.
+  - Raxu tiene sus propias claves (decisión del 1/10). Si el cupo es por cuenta y no por
+    clave, Raxu y Organizy lo comparten igualmente: lo comprueba la sesión "TomTom".
   - Raxu calculará más trayectos (entre cada par de citas), así que hay que vigilarlo.
 - **Supabase gratis:** 500.000 llamadas a funciones al mes y 30 altas anónimas por hora y
   por IP.
