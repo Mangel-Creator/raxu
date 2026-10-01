@@ -82,6 +82,34 @@ diseño, costes y pendientes. **Léelo antes de montar o copiar nada.** Lo más 
 - **Nada compartido con Organizy** (ver "Decisiones del usuario", 01/10): repositorio,
   proyecto de Expo, Supabase y claves de TomTom y Anthropic, todos nuevos y solo de Raxu.
 
+## IA (Claude): reglas para quien la programe
+
+Lo dejó la sesión «Anthropic» el 1/10/2026. Detalle, costes y pasos de la consola en
+`OneDrive\PERSONAL\Raxu\Notas y decisiones\Herramienta - Anthropic.md`.
+
+- **Estado:** espacio de trabajo propio «Raxu» en la consola, con límite de 5 $/mes. **La IA
+  está apagada**: la clave se crea más adelante y la guarda el usuario como secreto
+  `ANTHROPIC_API_KEY` del Supabase de Raxu. Todo tiene que funcionar sin ella (503
+  `sin-clave`, la app dice "aún no está encendida"). Nunca pidas la clave en el chat.
+- **Modelos:** Claude Haiku 4.5 (`claude-haiku-4-5`) para apuntar hablando, notas por voz y,
+  para empezar, la recepcionista. Sonnet 5.5 solo si Haiku se queda corto. El modelo va en
+  el servidor, nunca en la app. Salida estructurada y la app la vuelve a validar.
+- **Límites por persona** como en Organizy (copiar `_shared/limiteIA.ts` y la migración
+  `limites_ia`): 0,15 $ cada 5 horas y 0,50 $ por semana. Toda llamada pasa por
+  `permitirIA` antes y `apuntarIA` después. Precios (1/10/2026, $ por millón entrada/salida):
+  Haiku 4.5 1/5, Sonnet 5.5 2/10, Opus 5.5 4/20. La recepcionista llevará su propio límite.
+- Si se alcanza el límite del espacio, la API da un 400 con "workspace API usage limits": la
+  app dice "La IA está en pausa hasta el día 1", no "error". En los registros, solo el gasto.
+- **Apple (norma 5.1.2(i)):** antes de mandar datos a la IA, pantalla de permiso dentro de
+  la app (qué se manda, que va a Anthropic y para qué; "Permitir" / "Ahora no"; se puede
+  cambiar en Ajustes) y Anthropic nombrada en la política de privacidad. Desde el principio.
+- **Datos de salud:** las notas de un fisio lo son. Manda a la IA lo mínimo y que lo revise
+  un asesor antes de publicar.
+- **Ley europea de IA (art. 50.1, en vigor desde el 2/08/2026):** la recepcionista dice al
+  empezar cada llamada que es una IA ("Hola, soy la asistente virtual de Laura, una
+  inteligencia artificial…"), y también cualquier mensaje que escriba sola. El teléfono y la
+  voz son otra herramienta: se abre con `/app` cuando toque.
+
 ## Carpeta del usuario
 
 `C:\Users\usuario\OneDrive\PERSONAL\Raxu` (índice en su `LEEME.md`): Prompts, Guías de
