@@ -13,3 +13,4 @@ sesión.
 | 03 | 03 · Clientes y citas | Función | 2026-10-01 | pendiente | Ficha de cliente, citas, recordatorio por WhatsApp, Google/iCloud |
 | 04 | 04 · Ruta y llego tarde | Función | 2026-10-01 | pendiente | Hora de salida con tráfico, ruta del día, "llego tarde", Waze/Maps |
 | 05 | 05 · Cobros | Función | 2026-10-01 | pendiente | Cobrado / sin cobrar, "te deben X €", recordatorio de pago |
+| — | Organización | Herramienta | 2026-10-01 | pendiente de pulsar la tarjeta | Word de herramientas: qué pago, para qué sirve, mejor opción al crecer; se mantiene al día |
