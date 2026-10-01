@@ -13,7 +13,7 @@ sesión.
 | 03 | 03 · Clientes y citas | Función | 2026-10-01 | pendiente | Ficha de cliente, citas, recordatorio por WhatsApp, Google/iCloud |
 | 04 | 04 · Ruta y llego tarde | Función | 2026-10-01 | pendiente | Hora de salida con tráfico, ruta del día, "llego tarde", Waze/Maps |
 | 05 | 05 · Cobros | Función | 2026-10-01 | pendiente | Cobrado / sin cobrar, "te deben X €", recordatorio de pago |
-| — | Organización | Herramienta | 2026-10-01 | pendiente de pulsar la tarjeta | Word de herramientas: qué pago, para qué sirve, mejor opción al crecer; se mantiene al día |
+| — | Organización | Herramienta | 2026-10-01 | Organización (local_49584b03) | `OneDrive\PERSONAL\Raxu\Organización\Herramientas.docx` (desde `herramientas.json` con `regenerar.ps1`): qué pago, para qué sirve, mejor opción al crecer, coste a 100/1.000/10.000 usuarios; recibe los cambios de herramientas de las otras sesiones |
 | — | GitHub | Herramienta | 2026-10-01 | GitHub (local_806930ec) | Repo público Mangel-Creator/raxu (main subida), Pages con origen Actions en mangel-creator.github.io/raxu; plan Free, 0 € |
 | — | Expo | Herramienta | 2026-10-01 | pendiente de pulsar la tarjeta | Proyecto @mangel_creator/raxu, EXPO_TOKEN propio y Expo Go sin ordenador |
 | — | Supabase | Herramienta | 2026-10-01 | pendiente de pulsar la tarjeta | Proyecto nuevo, acceso anónimo, base común del servidor y variables públicas |

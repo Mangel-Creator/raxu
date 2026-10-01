@@ -104,6 +104,14 @@ solo aquí.
   sesión; las demás sesiones solo usan lo que esa deja montado y, si falta algo, se lo dicen
   al usuario (o a esa sesión) en vez de montarlo ellas. Las herramientas nuevas que vayan
   haciendo falta (Apple, Google Play, cobros, WhatsApp Business…) se abren con `/app`.
+- 01/10/2026 — **Word de herramientas siempre al día.** La lista de herramientas, planes,
+  precios y costes está en `OneDrive\PERSONAL\Raxu\Organización\herramientas.json`; el Word
+  `Herramientas.docx` sale de ahí con `regenerar.ps1` (misma carpeta; nunca se edita el Word
+  a mano). **Cualquier sesión que añada, quite o cambie de plan una herramienta** (o vea que
+  cambia su precio o su límite) actualiza ese JSON —también la fila de la tabla de
+  estimación si afecta— y ejecuta `regenerar.ps1`. Si no puede, avisa a la sesión
+  "Organización" (SendMessage) con el nombre, plan, precio, límites y enlace al panel. Sin
+  contraseñas ni claves en el JSON.
 
 ## Estado
 
