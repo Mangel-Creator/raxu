@@ -14,7 +14,7 @@ sesión.
 | 04 | 04 · Ruta y llego tarde | Función | 2026-10-01 | pendiente | Hora de salida con tráfico, ruta del día, "llego tarde", Waze/Maps |
 | 05 | 05 · Cobros | Función | 2026-10-01 | pendiente | Cobrado / sin cobrar, "te deben X €", recordatorio de pago |
 | — | Organización | Herramienta | 2026-10-01 | pendiente de pulsar la tarjeta | Word de herramientas: qué pago, para qué sirve, mejor opción al crecer; se mantiene al día |
-| — | GitHub | Herramienta | 2026-10-01 | pendiente de pulsar la tarjeta | Repo propio Mangel-Creator/raxu, subir main y GitHub Pages |
+| — | GitHub | Herramienta | 2026-10-01 | GitHub (local_806930ec) | Repo público Mangel-Creator/raxu (main subida), Pages con origen Actions en mangel-creator.github.io/raxu; plan Free, 0 € |
 | — | Expo | Herramienta | 2026-10-01 | pendiente de pulsar la tarjeta | Proyecto @mangel_creator/raxu, EXPO_TOKEN propio y Expo Go sin ordenador |
 | — | Supabase | Herramienta | 2026-10-01 | pendiente de pulsar la tarjeta | Proyecto nuevo, acceso anónimo, base común del servidor y variables públicas |
 | — | TomTom | Herramienta | 2026-10-01 | pendiente de pulsar la tarjeta | Claves nuevas de rutas (secreta) y mapa web (pública), cupo y costes |
