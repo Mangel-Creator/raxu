@@ -19,4 +19,4 @@ sesión.
 | — | Supabase | Herramienta | 2026-10-01 | pendiente de pulsar la tarjeta | Proyecto nuevo, acceso anónimo, base común del servidor y variables públicas |
 | — | TomTom | Herramienta | 2026-10-01 | pendiente de pulsar la tarjeta | Claves nuevas de rutas (secreta) y mapa web (pública), cupo y costes |
 | — | Anthropic | Herramienta | 2026-10-01 | Anthropic | Plan hecho: espacio «Raxu» con límite de 5 $/mes (lo crea el usuario), IA apagada hasta más adelante (clave sin crear), Haiku 4.5, costes y reglas de Apple y ley de IA en CLAUDE.md |
-| — | Higgsfield | Herramienta | 2026-10-01 | pendiente de pulsar la tarjeta | Imágenes y vídeos para Raxu (icono, marketing, tiendas), plan y costes |
+| — | Higgsfield | Herramienta | 2026-10-01 | Higgsfield (local_21dc1ed3) | Plan Free (sin uso comercial ni conector); Starter 19 €/mes + IVA solo el mes que se cree, Plus anual al crecer. Conector claude.ai `https://mcp.higgsfield.ai/mcp` sin conectar aún. Resumen en `Notas y decisiones\Herramienta - Higgsfield.md`; lo generado va a `Diseño` y `Ventas y marketing` |
