@@ -82,6 +82,25 @@ diseño, costes y pendientes. **Léelo antes de montar o copiar nada.** Lo más 
 - **Nada compartido con Organizy** (ver "Decisiones del usuario", 01/10): repositorio,
   proyecto de Expo, Supabase y claves de TomTom y Anthropic, todos nuevos y solo de Raxu.
 
+## Expo y EAS: lo que dejó montado la sesión «Expo»
+
+1/10/2026. Detalle y planes en
+`OneDrive\PERSONAL\Raxu\Notas y decisiones\Herramienta - Expo.md`.
+
+- **Proyecto `@mangel_creator/raxu`**, projectId `29931eab-4ae1-4d92-8bc5-2a84f7159a9f`
+  (https://expo.dev/accounts/mangel_creator/projects/raxu). Nuevo y solo de Raxu.
+- **El `app.json` de la 02 tiene que llevar** `"slug": "raxu"`, `"owner": "mangel_creator"` y
+  `"extra": { "eas": { "projectId": "29931eab-4ae1-4d92-8bc5-2a84f7159a9f" } }`. Así no
+  hace falta volver a ejecutar `eas init` (si se ejecuta, solo enlaza este mismo proyecto).
+- **Expo Go sin ordenador:** el workflow `expo-go.yml` (lo pone la 02, copiado de Organizy)
+  publica en la rama/canal `expo-go`. Dirección fija:
+  `exp://u.expo.dev/29931eab-4ae1-4d92-8bc5-2a84f7159a9f?runtime-version=exposdk%3A57.0.0&channel-name=expo-go`.
+  Ponla en el comentario de cabecera del workflow. QR en `OneDrive\PERSONAL\Raxu\QR y enlaces`.
+- **`EXPO_TOKEN`:** token nuevo solo de Raxu que crea el usuario en expo.dev y pega él como
+  secreto del repo. Sin él, el workflow se salta con un aviso (como en Organizy).
+- Plan Free de EAS. Las reglas de Expo Go (sin `runtimeVersion` en `app.json`, sin
+  `expo-updates`) están en `ORGANIZY.md`, apartado 4.
+
 ## IA (Claude): reglas para quien la programe
 
 Lo dejó la sesión «Anthropic» el 1/10/2026. Detalle, costes y pasos de la consola en

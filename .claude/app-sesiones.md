@@ -15,7 +15,7 @@ sesión.
 | 05 | 05 · Cobros | Función | 2026-10-01 | pendiente | Cobrado / sin cobrar, "te deben X €", recordatorio de pago |
 | — | Organización | Herramienta | 2026-10-01 | Organización (local_49584b03) | `OneDrive\PERSONAL\Raxu\Organización\Herramientas.docx` (desde `herramientas.json` con `regenerar.ps1`): qué pago, para qué sirve, mejor opción al crecer, coste a 100/1.000/10.000 usuarios; recibe los cambios de herramientas de las otras sesiones |
 | — | GitHub | Herramienta | 2026-10-01 | GitHub (local_806930ec) | Repo público Mangel-Creator/raxu (main subida), Pages con origen Actions en mangel-creator.github.io/raxu; plan Free, 0 € |
-| — | Expo | Herramienta | 2026-10-01 | pendiente de pulsar la tarjeta | Proyecto @mangel_creator/raxu, EXPO_TOKEN propio y Expo Go sin ordenador |
+| — | Expo | Herramienta | 2026-10-01 | Expo (local_3cd26fc9) | Proyecto @mangel_creator/raxu creado (projectId en CLAUDE.md), dirección fija de Expo Go y QR en `QR y enlaces`; plan Free, 0 €. Pendiente: `EXPO_TOKEN` (lo pega el usuario) y comprobar la primera publicación cuando la 02 suba `expo-go.yml`. Resumen en `Notas y decisiones\Herramienta - Expo.md` |
 | — | Supabase | Herramienta | 2026-10-01 | pendiente de pulsar la tarjeta | Proyecto nuevo, acceso anónimo, base común del servidor y variables públicas |
 | — | TomTom | Herramienta | 2026-10-01 | pendiente de pulsar la tarjeta | Claves nuevas de rutas (secreta) y mapa web (pública), cupo y costes |
 | — | Anthropic | Herramienta | 2026-10-01 | Anthropic | Plan hecho: espacio «Raxu» con límite de 5 $/mes (lo crea el usuario), IA apagada hasta más adelante (clave sin crear), Haiku 4.5, costes y reglas de Apple y ley de IA en CLAUDE.md |
